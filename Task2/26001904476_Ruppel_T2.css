@@ -1,0 +1,19 @@
+#main_Div{
+    border: 5px solid blue;
+    color: black;
+    
+}
+
+td, th {
+    border: 2px solid rebeccapurple;
+    padding: 0.5rem;
+  }
+  th{
+      background-color: coral;
+  }
+  td{
+      background-color: cornflowerblue;
+  }
+  div{
+      color: red;
+  }
