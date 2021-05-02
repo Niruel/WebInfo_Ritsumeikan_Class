@@ -1,0 +1,57 @@
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 100vh;
+   
+  }
+  .row{
+    padding: 16px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #col_one{
+      background-color: #ff0000;
+      background-image: url(switch.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      
+  }
+  #col_two{
+      background-color: black;
+      background-image: url(ps01_s.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+}
+#col_three{
+      background-color: green;
+      background-image: url(xbox.png) ;
+      background-repeat: no-repeat;
+      background-position: center;
+    
+}
+header{
+    padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.sticky + .row{
+    padding-top: 102px;
+}
+body{
+    background-color: black;
+}

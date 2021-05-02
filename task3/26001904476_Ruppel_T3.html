@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 3</title>
+<link rel="stylesheet" href="26001904476_Ruppel_T3.css">
+</head>
+<body>
+
+  <header id = "myHeader">
+      <h1>Team Pop</h1>
+      <h1>Ruppel 26001904476</h1>
+  </header>
+  <div class="row">
+    <div  id= "col_one" class="column">
+     
+    </div>
+    <div id= "col_two" class="column">
+      
+    </div>
+    <div id= "col_three" class="column">
+     
+    </div>
+  </div>
+  <script>
+    
+  window.onscroll = function() {myFunction()};
+  
+  
+  var header = document.getElementById("myHeader");
+  
+  
+  var sticky = header.offsetTop;
+  
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  
+  </script>
+
+</body>
+
+</html>
