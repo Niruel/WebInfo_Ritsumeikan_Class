@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 4</title>
+<link rel="stylesheet" href="26001904476_Ruppel_T4.css">
+</head>
+<body>
+
+  <header id = "myHeader">
+      <h1>Team Pop</h1>
+      <h1>Ruppel 26001904476</h1>
+  </header>
+  <h4>Counter</h4>
+  <div id="number">0</div>
+  <button id= "count_up" onclick="count_Up()">Up</button>
+  <button id= "count_down" onclick="count_Down()">Down</button>
+  <button id= "rest" onclick="Reset()">Rest</button>
+
+  <script>
+    //create two varibles to manage the up down
+  let number = document.getElementById("number");
+  let count = 0;
+  
+  /*
+  using three function to do the operatation
+  inside each function you first update the count
+  and then the html
+  
+  */
+  function count_Up() {
+    count++;
+    number.innerHTML=count;
+    
+  }
+  function count_Down() {
+    count--;
+    number.innerHTML=count;
+    
+  }
+  function Reset() {
+    count=0;
+    number.innerHTML=count;
+    
+  }
+  
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+
+header{
+    padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.sticky + .row{
+    padding-top: 102px;
+}
+body{
+    background-color: white;
+}
